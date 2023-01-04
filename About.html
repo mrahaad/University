@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTU University </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+        <!-- Header section -->
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+            <h1>About Us</h1>
+    </section>
+
+    <!-- About us content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Vision</h1>
+                <p>National Textile University aspires to have a transformative impact on the socio-economic development of the country in general and textile & clothing industry in particular, with outstanding education, research, and eco-friendly innovation.</p>
+
+                <h1>Mission</h1>
+                <p>The mission of National Textile University is to contribute towards sustainable socio-economic development of society and welfare of humanity through pursuit of excellence in education, research and innovation in areas of National importance, with special emphasis on textile and clothing.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="img/About.jpg">
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+
+<!-- Footer -->
+
+<section class="footer">
+
+<h4>About Us</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, sint quaerat quibusdam ducimus ipsa quo, <br>facilis reprehenderit alias inventore placeat repudiandae.</p>
+
+<div class="icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+</div>
+<p>Made By <i class="fa fa-heart"></i> Abdul Ghani </p>
+
+
+</section>
+
+
+
+
+<!-- Javascript for Toggle Menu -->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+<script src="//code.tidio.co/tsbuvfx6fp8czn831zid7kp38bzxsx1w.js" async></script>
+
+</body>
+</html>
